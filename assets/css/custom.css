@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-navbar {
+    background-color: #6638B6;
+    color: #FFFFFF;
+}
+
+#hero {
+    background-image: url("../images/Find\ Your\ Summit\ -\ Personalized\ and\ Professional\ Marketing\ For\ Your\ Small\ Business.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #6638B6;
+    color: #FFFFFF;
+    padding: 6vh;
+}
+
+#hero-content-wrapper {
+    max-width: 1400px;
+}
+
+#hero-logo {
+    max-width: 100%;
+    width: 80%;
+    height: auto;
+}
+
+#hero h1 {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#hero h2 {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.5em;
+}
+
+@media screen and (min-width: 576px) {
+    #hero {
+        padding: 12vh;
+    }
+    #hero h1 {
+        font-size: 36px;
+    }
+    #hero h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #hero {
+        padding: 10vh;
+    }
+    #hero h1 {
+        font-size: 54px;
+    }
+    #hero h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #hero {
+        padding: 14vh;
+    }
+    #hero h1 {
+        font-size: 70px;
+    }
+    #hero h2 {
+        font-size: 42px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #hero h1 {
+        font-size: 70px;
+    }
+    #hero h2 {
+        font-size: 42px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #hero h1 {
+        font-size: 80px;
+    }
+    #hero h2 {
+        font-size: 45px;
+    }
+}
