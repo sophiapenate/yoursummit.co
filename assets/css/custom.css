@@ -38,6 +38,38 @@ body {
     line-height: 1.5em;
 }
 
+#services-intro {
+    background-color: #00966C;
+    color: #FFFFFF;
+}
+
+#services-intro h3 {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.5em;
+}
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+footer h6 {
+    font-weight: 700;
+    line-height: 2em;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .copyright {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
 @media screen and (min-width: 576px) {
     #hero {
         padding: 12vh;
