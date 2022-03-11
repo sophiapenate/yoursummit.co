@@ -3,7 +3,7 @@ body {
 }
 
 #main-navbar {
-    background-color: #6638B6;
+    padding-top: 20px;
     color: #FFFFFF;
 }
 
@@ -13,11 +13,12 @@ body {
     background-size: cover;
     background-color: #6638B6;
     color: #FFFFFF;
-    padding: 6vh;
+    text-shadow: 0 0 1em rgba(0, 0, 0, .4);
 }
 
 #hero-content-wrapper {
-    max-width: 1400px;
+    padding: 6vh 0;
+    max-width: 1600px;
 }
 
 #hero-logo {
@@ -71,8 +72,8 @@ footer .copyright {
 }
 
 @media screen and (min-width: 576px) {
-    #hero {
-        padding: 12vh;
+    #hero-content-wrapper {
+        padding: 12vh 0;
     }
     #hero h1 {
         font-size: 36px;
@@ -83,8 +84,8 @@ footer .copyright {
 }
 
 @media screen and (min-width: 768px) {
-    #hero {
-        padding: 10vh;
+    #hero-content-wrapper {
+        padding: 10vh 0;
     }
     #hero h1 {
         font-size: 54px;
@@ -94,9 +95,9 @@ footer .copyright {
     }
 }
 
-@media screen and (min-width: 992px) {
-    #hero {
-        padding: 14vh;
+/* @media screen and (min-width: 992px) {
+    #hero-content-wrapper {
+        padding: 14vh 0;
     }
     #hero h1 {
         font-size: 70px;
@@ -104,7 +105,7 @@ footer .copyright {
     #hero h2 {
         font-size: 42px;
     }
-}
+} */
 
 @media screen and (min-width: 1200px) {
     #hero h1 {
